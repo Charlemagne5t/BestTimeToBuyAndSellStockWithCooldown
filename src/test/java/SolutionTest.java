@@ -17,4 +17,11 @@ public class SolutionTest {
         Assert.assertEquals(output, new Solution().maxProfit(prices));
     }
 
+    @Test
+    public void maxProfitTest3() {
+        int[] prices = {2,1,4};
+        int output = 3;
+        Assert.assertEquals(output, new Solution().maxProfit(prices));
+    }
+
 }
